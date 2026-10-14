@@ -4,6 +4,8 @@ A full-stack Banking Management System designed to provide a simple and centrali
 
 The system is built with **ASP.NET Core** for the backend, **React.js** for the frontend, and **Microsoft SQL Server** for data storage and management.
 
+for more insight on the project watch the Demo:
+https://youtu.be/wD__G8JwgBs
 ## 🏦 Overview
 
 The Banking Management System provides a role-based environment where users can manage their banking information and perform common banking operations through a web-based interface.

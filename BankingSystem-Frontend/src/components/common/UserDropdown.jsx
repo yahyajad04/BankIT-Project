@@ -8,6 +8,7 @@ export default function UserDropdown(props){
   function handleLogout(){
     try{
       if(token){
+        localStorage.removeItem("token");
         setToken(null);
         navigate("/login");
       }

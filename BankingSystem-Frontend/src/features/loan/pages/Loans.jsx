@@ -36,7 +36,14 @@ export default function Loans(){
                         element={<CreateLoan />}/>
                 </div>          
             </div>
-            : <div><b>There is no Loans for this Profile!</b></div>
+            : <div>
+                <b>There is no Loans for this Profile!</b>
+                <div className="col-4">
+                    <Modal 
+                        id="loan-create-id"
+                        element={<CreateLoan />}/>
+                </div>  
+                </div>
             }
         </div>
     )

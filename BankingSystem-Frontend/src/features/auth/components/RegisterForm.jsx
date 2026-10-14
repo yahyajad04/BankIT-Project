@@ -64,7 +64,7 @@ export default function RegisterForm(){
                 <h1 className="h3 mb-3 fw-bold fs-1 text-center">Sign Up</h1>
                 <div className="row">
                     <div className="col-sm-6">
-                        <div className="form-floating mb-1 mx-auto">
+                        <div className="form-floating mb-1">
                             <input
                                 onChange={handleChange}
                                 value={name}
@@ -118,20 +118,6 @@ export default function RegisterForm(){
                 />
                 <label htmlFor="floatingPassword">Password</label>
                 </div>
-
-                <div className="form-floating mx-auto mb-1">
-                    <input
-                        onChange={handleChange}
-                        value={nationalId}
-                        type="text"
-                        className="form-control"
-                        id="floatingNationalId"
-                        name="nationalId"
-                        placeholder="National Id"
-                    />
-                    <label htmlFor="floatingPassword">National Id</label>
-                </div>
-
                 <div className="row">
                     <div className="col-sm-6">
                        <div className="form-floating mb-1">
@@ -159,6 +145,18 @@ export default function RegisterForm(){
                             <label htmlFor="floatingPassword">City</label>
                         </div>
                     </div>
+                </div>
+                <div className="form-floating mx-auto mb-1">
+                    <input
+                        onChange={handleChange}
+                        value={nationalId}
+                        type="text"
+                        className="form-control"
+                        id="floatingNationalId"
+                        name="nationalId"
+                        placeholder="National Id"
+                    />
+                    <label htmlFor="floatingPassword">National Id</label>
                 </div>
 
                 <div className="mb-4"></div>

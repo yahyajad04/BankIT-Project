@@ -26,6 +26,7 @@ export default function LoginForm(props){
     }
     try{
         var data = await login(loginDTO);
+        localStorage.setItem("token", data.token)
         setToken(data.token);
         showNotification(
             "Logged In Successfully",
